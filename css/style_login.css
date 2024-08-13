@@ -1,0 +1,65 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: aquamarine;
+}
+
+#login{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+
+.email input{
+    border-radius: 10px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+}
+
+.senha input{
+    border-radius: 10px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+
+.entrar input{
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #0fbaba;
+}
+
+h1{
+    font-family: "Poppins", sans-serif;
+
+}
+
+.caixa{
+    margin-top: 60px;
+}
+
+.caixa img{
+    width: 115px;
+    border-radius: 200px;
+}
+
+input :focus{
+   outline: none;
+}
+
+.entrar{
+    margin-top: 15px;
+}
+
+label{
+    margin-top: 20px;
+}
